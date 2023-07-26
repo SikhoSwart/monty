@@ -1,6 +1,7 @@
 #ifndef MONTY_H
 #define MONTY_H
 
+#define  _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -61,5 +62,11 @@ typedef void (*instruct_func)(stack_t **stack, unsigned int line_number);
 instruct_func _opcode(char *str);
 
 void _nop(stack_t **stack, unsigned int line_number);
+void _pall(stack_t **stack, unsigned int line_number);
+void _push(stack_t **stack, unsigned int line_number);
+void _pint(stack_t **stack, unsigned int line_number);
+void _pop(stack_t **stack, unsigned int line_number);
+void _swap(stack_t **stack, unsigned int line_number);
+void _add(stack_t **stack, unsigned int line_number);
 
 #endif

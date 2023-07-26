@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
 	stack_t *stk;
 
-	stk == NULL;
+	stk = NULL;
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
