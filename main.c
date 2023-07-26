@@ -1,4 +1,5 @@
 #include "monty.h"
+global_var var_global;
 /**
  * main - main function
  * @argc: argument count
