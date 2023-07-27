@@ -17,6 +17,6 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 	_read(argv[1], &stk);
-	free(stk);
+	_free(stk);
 	return (0);
 }
