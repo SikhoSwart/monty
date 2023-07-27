@@ -5,8 +5,8 @@
  * @line_number: current line number
  * Return: nothing
  */
-void _nop(__attribute__ ((unused))stack_t **stack,
-		__attribute__ ((unused)) unsigned int line_number)
+void _nop(stack_t **stack, unsigned int line_number)
 {
-	;
+	(void)stack;
+	(void)line_number;
 }
